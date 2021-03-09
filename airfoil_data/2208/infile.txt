@@ -1,0 +1,15 @@
+NACA 2208
+PPAR
+N 240
+
+
+OPER
+VISC 1000000.0
+iter 100
+PACC
+airfoil_data\2208\outfile.txt
+
+aSEQ -0.5 -15 0.5
+dump.txt
+
+quit

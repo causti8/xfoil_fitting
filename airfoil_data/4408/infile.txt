@@ -1,0 +1,12 @@
+NACA 4408
+PANE
+OPER
+VISC 10000.0
+iter 100
+PACC
+airfoil_data\4408\outfile.txt
+
+aSEQ 0 8 0.01
+dump.txt
+
+quit
